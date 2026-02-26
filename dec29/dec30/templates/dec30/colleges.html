@@ -1,0 +1,10 @@
+{% extends 'dec30/base.html' %}
+
+{% block content %}
+<h2>Colleges</h2>
+<ul>
+    {% for college in colleges %}
+    <li>{{ college }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
